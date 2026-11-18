@@ -1,0 +1,6 @@
+{
+  "plugin.name": "VS Code Keymap",
+  "plugin.description": "Visual Studio Code default keymaps for the file editor (macOS and Windows)",
+  "keymap.vscodeMac": "VS Code (macOS)",
+  "keymap.vscodeWindows": "VS Code (Windows)"
+}

@@ -1,0 +1,6 @@
+{
+  "plugin.name": "VS Code 快捷键",
+  "plugin.description": "文件编辑器的 Visual Studio Code 默认快捷键方案（macOS 版与 Windows 版）",
+  "keymap.vscodeMac": "VS Code（macOS）",
+  "keymap.vscodeWindows": "VS Code（Windows）"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "keymap-vscode",
+  "name": "%plugin.name%",
+  "version": "0.1.0",
+  "vendor": "Lemon Paperplane",
+  "description": "%plugin.description%",
+  "icon": "icons/keymap-vscode.svg",
+  "category": "tool",
+  "engines": {"paperplane": ">=0.1.0 <0.2.0"},
+  "protocol": 1,
+  "activation": {},
+  "contributes": {
+    "keymaps": [
+      {"id": "vscode-macos", "name": "%keymap.vscodeMac%", "platform": "macos", "file": "keymaps/vscode-macos.json"},
+      {"id": "vscode-windows", "name": "%keymap.vscodeWindows%", "platform": "windows", "file": "keymaps/vscode-windows.json"}
+    ]
+  }
+}
